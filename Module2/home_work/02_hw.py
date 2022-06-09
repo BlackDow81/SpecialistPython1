@@ -7,4 +7,11 @@
 # коров, корова или коровы
 # Например, 1 корова, 2 коровы, 5 коров, 125 коров.
 
-# TODO: your code here
+n = int(input("Enter the number of cows n:"))
+if n % 10 == 1:
+    print("Na lugu pasetsya", n, "korova")
+elif n % 10 == 0 or (n % 100) >= 5 or (n % 100) <= 20:
+    print("Na lugu pasetsya", n, "korov")
+else:
+    print("Na lugu pasetsya", n, "korovy")
+input("Press Enter to exit")
