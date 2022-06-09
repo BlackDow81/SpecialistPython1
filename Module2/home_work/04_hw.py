@@ -14,3 +14,15 @@
 #    #
 #    #
 ######
+side = int(input("Enter the side of rectangle 2<a≤30: "))
+if side <= 2 or side > 30:
+    print("invalid numeric value")
+    input("Press Enter to exit")
+else:
+    x = "#" * side
+    print(x)
+    y= "#" + " " * (side - 2) + "#"
+for a in range(0, (side - 2)):
+    print(y)
+print(x)
+input("Press Enter to exit")
