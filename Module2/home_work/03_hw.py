@@ -30,4 +30,11 @@
 # 19 189.81 Rub.
 # 20 199.8 Rub.
 
-# TODO: your code here
+x = float(input("Enter the price of item:"))
+price_of_items = x
+n = 1
+while n < 21:
+    price_of_items =  x * n
+    print("price of", n, "items",round(price_of_items,2) , "rub")
+    n = n + 1
+input("Press Enter to exit")
