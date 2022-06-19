@@ -3,4 +3,7 @@
 
 fruits = ["яблоко", "банан", "киви", "ананас", "груша"]
 
-# TODO: your code here
+list(enumerate(fruits))
+print(fruits)
+for number, member in enumerate(fruits, 1):
+    print(number, member)
