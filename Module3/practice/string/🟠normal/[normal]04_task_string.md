@@ -56,3 +56,9 @@ password = input("Enter password: ")
 "b" in "hello"  # False
 ```
 </details>
+
+password = input("Enter password: ")
+if len(password) >= 6 and password.istitle() and password.find("#") != -1:
+    print("secure password")
+else:
+    print("insecure password")
