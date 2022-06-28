@@ -3,3 +3,6 @@
 tup = (2, 4, 6, -4, 12, 0, 5)
 
 # TODO: your code here
+tup = (2, 4, 6, -4, 12, 0, 5)
+memberus_maximus = max(tup)
+print("biggest number in this tuple is: ", memberus_maximus)
