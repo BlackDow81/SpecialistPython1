@@ -28,3 +28,11 @@ vowels = "ауоыэяюёие"
 <summary>Подсказка-1</summary>
 Преобразуйте исходную строку к нижнему регистру воспользовавшись соответствующим методом.
 </details>
+
+text = "В теории, теория и практика неразделимы. На практике это не так. ЫЫЫ - ТЕСТ"
+vowels = "ауоыэяюёие"
+count = 0
+for letter in text.lower():
+    if letter in vowels:
+        count += 1
+print("quantity of vowels in your text is:", count)
